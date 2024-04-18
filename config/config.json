@@ -1,0 +1,41 @@
+{
+    "Section 1 Explanation":"The parameters required for data loading remain largely unchanged",
+    "relation_file": "./dataset/fewrel/relation_name.txt",
+    "training_file": "./dataset/fewrel/fewrel_5_shot/training.txt",
+    "test_file": "./dataset/fewrel/fewrel_5_shot/test.txt",
+    "valid_file": "./dataset/fewrel/fewrel_5_shot/valid.txt",
+    "rel_cluster_label":"./dataset/fewrel/fewrel_5_shot/rel_cluster_label_0.npy",
+    "random_seed": 100,
+
+    "Section 2 Explanation":"Task loading parameters that dynamically change based on different tasks and required computational resources",
+    "task_name": "FewRel", 
+    "num_clusters": 8, 
+    "max_grad_norm": 1,
+    "batch_size": 4,
+    "batch_size_per_step": 4,
+    "Ns": 5,
+    "Nq": 5,
+
+    "device_idx": 5,
+    "num_workers": 4, 
+    "n_gpu":8,
+    "use_gpu":true,
+
+
+    "Section 3 Explanation": "The experiment allows for adjustable hyperparameters",
+    "base_epoch": 150,
+    "continue_epoch":100,
+    "loss_weight_base": [1,0], 
+    "loss_weight_continue": [1,0.1,0.1,0.1],
+    "momentum_params": 0.5,
+    "multi_head": 2,
+    "n_tokens":10,
+    "argued": true,
+    "unfreeze_layers_base": ["embeddings.word_embeddings.learned_embedding","layer.11"],
+    "unfreeze_layers_continue": ["embeddings.word_embeddings.learned_embedding"],
+    "pretrain": true,
+    "pre_train": true,
+    "prompt_diversity": true,
+    "bert_kd": true,
+    "kd_coefficient": 0.01
+}
