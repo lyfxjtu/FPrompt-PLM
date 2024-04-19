@@ -6,7 +6,7 @@ This repository provides PyTorch implementation for the paper [*FPrompt-PLM: Fle
 
 The learning paradigm of CFS-RE.
 
-<img src="assets/CFS-RE.png" alt="MatPlotAgent" width="500">
+<img src="assets/CFS-RE.png"  width="500">
 
 Relation extraction (RE) aims to identify the relation between two entities within a sentence, which plays a crucial role in information extraction. The traditional supervised setting on RE does not fit the actual scenario due to the continuous emergence of new relations and the unavailability of massive labeled examples. Continual few-shot relation extraction (CFS-RE) is proposed as a potential solution to the above situation, which requires the model to learn new relations sequentially from a few examples. Apparently, CFS-RE is more challenging than previous RE, as it involves the catastrophic forgetting of old knowledge and few-shot overfitting on a handful of examples.
 
@@ -20,11 +20,11 @@ Furthermore, we improve the CFS-RE loss by incorporating multiple distillation l
 
 Similarity heatmaps among 15 prototypes and 3 prompts after the learning stage on X2 data over TACRED dataset. The sentence encoder is BERT Base.
 
-<img src="assets/cs1.png" alt="MatPlotAgent" width="500">
+<img src="assets/cs1.png"  width="500">
 
 The case study on TACRED involves marking the head/tail entities in blue/orange and indicating wrong results with ✗.
 
-<img src="assets/cs2.png" alt="MatPlotAgent" width="500">
+<img src="assets/cs2.png" width="500">
 
 ## Requirements
 
