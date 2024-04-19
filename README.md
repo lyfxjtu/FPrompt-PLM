@@ -1,11 +1,12 @@
 # FPrompt-PLM: Flexible-Prompt on Pretrained Language Model for Continual Few-Shot Relation Extraction
+
 This repository provides PyTorch implementation for the paper [*FPrompt-PLM: Flexible-Prompt on Pretrained Language Model for Continual Few-Shot Relation Extraction*] **TKDE Under Review**
 
 ## Introduction
 
 The learning paradigm of CFS-RE.
 
-<img src="assets/FPrompt-framework.png" alt="MatPlotAgent" width="500">
+<img src="assets/CFS-RE.png" alt="MatPlotAgent" width="500">
 
 Relation extraction (RE) aims to identify the relation between two entities within a sentence, which plays a crucial role in information extraction. The traditional supervised setting on RE does not fit the actual scenario due to the continuous emergence of new relations and the unavailability of massive labeled examples. Continual few-shot relation extraction (CFS-RE) is proposed as a potential solution to the above situation, which requires the model to learn new relations sequentially from a few examples. Apparently, CFS-RE is more challenging than previous RE, as it involves the catastrophic forgetting of old knowledge and few-shot overfitting on a handful of examples.
 
@@ -26,6 +27,7 @@ The case study on TACRED involves marking the head/tail entities in blue/orange 
 <img src="assets/cs2.png" alt="MatPlotAgent" width="500">
 
 ## Requirements
+
 Python 3.6.2 <br />
 Numpy <br />
 Pandas <br />
@@ -33,6 +35,7 @@ Pytorch 1.0.1 <br />
 Scikit-learn 0.21.1 <br />
 
 ## Dataset
+
 We conduct the split on FewRel and Tacred dataset in dataset directory. 
 
 Please take a look at our paper for details of the split.
