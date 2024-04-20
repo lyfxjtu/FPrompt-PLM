@@ -20,7 +20,9 @@ Furthermore, we improve the CFS-RE loss by incorporating multiple distillation l
 
 Similarity heatmaps among 15 prototypes and 3 prompts after the learning stage on X2 data over TACRED dataset. The sentence encoder is BERT Base.
 
-<img src="assets/cs1.png"  width="500">
+<p align="center">
+    <img src="assets/cs1.png" width="500">
+</p>
 
 The case study on TACRED involves marking the head/tail entities in blue/orange and indicating wrong results with ✗.
 
@@ -28,11 +30,9 @@ The case study on TACRED involves marking the head/tail entities in blue/orange 
 
 ## Requirements
 
-Python 3.6.2 <br />
-Numpy <br />
-Pandas <br />
-Pytorch 1.0.1 <br />
-Scikit-learn 0.21.1 <br />
+```
+pip install -r requirements.txt
+```
 
 ## Dataset
 
@@ -40,7 +40,6 @@ We conduct the split on FewRel and Tacred dataset in dataset directory.
 
 Please take a look at our paper for details of the split.
 
-## Configuration
 
 ## Citation
 **Coming Soon...**
