@@ -17,6 +17,7 @@ Furthermore, we improve the CFS-RE loss by incorporating multiple distillation l
 <p align="center">
 <img src="assets/FPrompt-framework.png" alt="MatPlotAgent" width="500">
 </p>
+
 ## Case Study
 
 Similarity heatmaps among 15 prototypes and 3 prompts after the learning stage on X2 data over TACRED dataset. The sentence encoder is BERT Base.
@@ -29,6 +30,7 @@ The case study on TACRED involves marking the head/tail entities in blue/orange 
 <p align="center">
 <img src="assets/cs2.png" width="500">
 </p>
+
 ## Requirements
 
 ```
