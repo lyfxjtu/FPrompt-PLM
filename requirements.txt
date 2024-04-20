@@ -1,0 +1,17 @@
+certifi @ file:///croot/certifi_1671487769961/work/certifi
+huggingface-hub==0.13.3
+numpy==1.21.6
+packaging==23.0
+requests==2.28.2
+scikit-learn==1.0.2
+scipy==1.7.3
+six==1.16.0
+sklearn==0.0.post1
+tokenizers==0.13.2
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
+tornado==6.2
+tqdm==4.65.0
+transformers==4.27.2
+wordninja==2.0.0
