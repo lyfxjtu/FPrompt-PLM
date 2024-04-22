@@ -5,7 +5,7 @@ import json
 import os
 from data_process import data_sampler
 from transformers import BertTokenizer
-from prototype_prompt_continue import Protonets
+from prototype_prompt import Protonets
 from utils import *
 
 
